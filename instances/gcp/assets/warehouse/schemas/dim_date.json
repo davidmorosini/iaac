@@ -1,0 +1,86 @@
+[
+    {
+        "mode": "NULLABLE",
+        "name": "_id",
+        "type": "DATETIME",
+        "description": "Internal identifier, partitioned by month"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "STRING",
+        "description": "ISO representation of date (YYYY-MM-DD)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "day",
+        "type": "INTEGER",
+        "description": "Day number of date"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "month",
+        "type": "INTEGER",
+        "description": "Month number of date"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "year",
+        "type": "INTEGER",
+        "description": "Year number of date"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "day_in_week",
+        "type": "INTEGER",
+        "description": "ISO number of day in current week"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "day_in_year",
+        "type": "INTEGER",
+        "description": "Number of the day in the current year"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "week_in_month",
+        "type": "INTEGER",
+        "description": "Number of week in current month"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "week_in_year",
+        "type": "INTEGER",
+        "description": "Number of week in current year"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "is_weekend",
+        "type": "BOOLEAN",
+        "description": "Flag to indicate if the current date is weekend"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "day_name",
+        "type": "STRING",
+        "description": "Name of the day in current week"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "day_abbreviation",
+        "type": "STRING",
+        "description": "Abbreviation name of the day in current week"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "month_name",
+        "type": "STRING",
+        "description": "Name of the current month"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "month_abbreviation",
+        "type": "STRING",
+        "description": "Abbreviation name of the current month"
+    }
+]

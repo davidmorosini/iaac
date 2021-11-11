@@ -1,0 +1,14 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "_id",
+    "type": "INTEGER",
+    "description": "Internal identifier, partitioned by integer interval"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "payment_method",
+    "type": "STRING",
+    "description": "Payment method name"
+  }
+]

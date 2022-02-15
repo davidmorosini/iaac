@@ -67,7 +67,7 @@ locals {
 
 module "bigquery-datawarehouse" {
 
-  source  = "../services/gcp/bigquery/"
+  source  = "../../modules/gcp/bigquery/"
   dataset = local.dataset_warehouse
 
 }
